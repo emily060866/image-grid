@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h1,
 p {
   margin: 0 0 1.3rem;
@@ -24,4 +28,17 @@ section {
 img {
   height: 100%;
   width: 100%;
+  display: block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .photo:nth-child(2), .photo:nth-child(5) {
+    display: block;
+  }
+
+  .photo:nth-child(2), .photo:nth-child(3), .photo:nth-child(4), .photo:nth-child(5) {
+    width: 50%;
+  }
+
 }
