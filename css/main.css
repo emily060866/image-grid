@@ -1,7 +1,27 @@
 html {
   box-sizing: border-box;
+  font: normal 100%/1.3 sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1,
+p {
+  margin: 0 0 1.3rem;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo:nth-child(2), .photo:nth-child(5) {
+  display: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
 }
